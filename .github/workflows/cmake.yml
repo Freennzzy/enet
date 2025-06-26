@@ -26,4 +26,4 @@ jobs:
         name: enet-${{ matrix.os }}-${{ matrix.build_type }}
         path: |
             ${{github.workspace}}/build/**/*.lib
-            ${{github.workspace}}/build/**/*.a --> ini apa .a
+            ${{github.workspace}}/build/**/*.a
